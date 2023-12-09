@@ -8,7 +8,7 @@ red - #d3325f*/
 body{    
     font-family: 'Shadows Into Light', cursive;
     color: #c9c1ac;
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(100,0,0,0.3)), url(../img/bg-image.jpg) center/cover fixed no-repeat;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(100,0,0,0.3)), url(../img/interior.jpg) center/cover fixed no-repeat;
 }
 
 
@@ -608,50 +608,30 @@ hr {
     min-height: 60vh;
 }
 
-#contact .card{
-    background: rgba(255,255,255,0.5);
+#contact{
+    background: #1d1c1a;
     transition: all 2s ease;
 }
 
-#contact .card:hover{
-    background: rgba(255,255,255,0.9);
+.location{
+    background-image: url('../img/entrada.jpg'), linear-gradient(#1d1c1aad,#1d1c1aad);
+    background-blend-mode: overlay;
+    padding:30px;
 }
 
-#contact .card-header{
-    color: #d3325f;
+.location h2 {
+    color:#e30713!important; 
+    font-size: 30px!important;
+    font-weight: bold;
+
 }
 
-#contact .input-group-text{
-    background: #d3325f;
-    border-color: #d3325f;
-    color: #242424;
+.location h3 {
+    color: white!important;
+    font-size: 40px!important;
+
 }
 
-#contact .card-input{
-    color: #606060;
-}
-
-#contact .card input::placeholder{
-    color: #606060;
-}
-textarea::placeholder{
-    color: #606060;
-    font-size: 20px;
-}
-
-
-.contact-btn{
-    color: #d3325f;
-    border-color: #d3325f;
-    background: transparent;
-    transition: all 1s ease-in-out;
-}
-
-.contact-btn:hover{
-    background: #c9c1ac;
-    color: #d3325f;
-    border-color: #c9c1ac;
-}
 
 /* ######## footer $#############*/
 #back-to-top{
@@ -665,11 +645,6 @@ textarea::placeholder{
     bottom: 70px;
     right: 10px;
 }
-
-
-
-
-
 
 
 
