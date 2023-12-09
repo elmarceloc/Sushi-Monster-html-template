@@ -48,13 +48,6 @@ $(document).ready(function(){/*ancaq doc yuklenende, hazir olanda ready olsun*/
   })
 
  
-
-    //ripples
-    $("#header, .info").ripples({ //selectora hara efekti vermek isteyirikse yaziriq
-        dropRadius: 25,           //dropradius perturbance reqemleri githubda kodu goturlen yerde yazilib
-        perturbance: 0.6,
-        
-      });
     /*$(selector).ripples({
         dropRadius: ...,
         perturbance: ...,

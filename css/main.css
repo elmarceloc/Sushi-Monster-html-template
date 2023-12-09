@@ -2,7 +2,7 @@
 red - #d3325f*/
 
 .info{
-    background: #c9c1ac;
+    background: hwb(0deg 7.39% 92.61%);
 }
 
 body{    
@@ -13,7 +13,7 @@ body{
 
 
 .primary-color{
-    color: #d3325f;
+    color: #e30713;
 }
 
 .info h3{
@@ -47,7 +47,7 @@ body{
     min-height: calc(100vh - 94px); /*100vh butun ekrann olcusu boyda olur sekil,
                                     yeni sekil info classi qeder asagi dusur,scroll yaranir.
                                     info classinin uzunlug cixanda tam sehifeni tutur.*/
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(100,0,0,0.5)), url(../img/banner-bg.jpg) ;
+    background: url(../img/new-banner2.png) ;
     /*linear-gradient edende  yuxaridan asagiya reng elave edirik
     rgba-dan evvel to right yazsaq soldan saga dogru reng elave edirik    */
     background-position: center;
@@ -84,7 +84,7 @@ body{
     100%{
         transform: translate(0);/*oldugu yere qayidacaq*/
         opacity: 1;
-    }
+    }   
 }
 
 .main-btn{
@@ -674,3 +674,7 @@ textarea::placeholder{
 
 
 
+.btn-peya{
+    background: ('../img/peya.png');
+    height: 96px;
+}
